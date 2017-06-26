@@ -1,0 +1,16 @@
+Row with max accretion is row 96390
+Time at max accretion is: 3.84695890411 Gyr
+Max accretion rate is: 5.062690e-06 solar masses per year
+Median of Accretion Rate is 3.040650e-06 solar masses per year
+The maximum accretion rate is 166.50025488 percent higher than the median.
+SFR at max accretion is: 3.703214e-04 solar masses per year
+Median of SFR is 2.600658e-04 solar masses per year
+The SFR at the max accretion rate time is 142.395270735 percent higher than the median.
+Row with max SFR is row 1143
+Time at max SFR is: 0.0712491780822 Gyr
+Max SFR rate is: 4.849211e-04 solar masses per year
+Median of SFR Rate is 2.600658e-04 solar masses per year
+The maximum SFR rate is 186.460926427 percent higher than the median.
+Accretion at max SFR is: 2.448950e-06 solar masses per year
+Median of accretion rate is 3.040650e-06 solar masses per year
+The accretion rate at the max SFR rate time is 80.540344992 percent higher than the median.
