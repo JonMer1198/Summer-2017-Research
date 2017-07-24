@@ -10,7 +10,7 @@ def AllPlot(arg):
         sfr = np.loadtxt('sfr-merger.txt', usecols = [2])
 
         time = (d[:,0])/ 0.73
-        mass = d[:,1]
+        mass = ((d[:,1])* 10**10)/ 0.73
         mdot = d[:,2]
         mdoter = d[:,3]
         
@@ -30,7 +30,7 @@ def AllPlot(arg):
         ax2.semilogy(time, sfr, 'y-')
         ax2.axvline(3.53312328767, color = 'k')
         ax2.annotate('max SFR rate', xy=(3.53312328767, max(sfr) ), xytext=(1.07, max(sfr)),arrowprops=dict(arrowstyle="->", facecolor='black'))
-        ax2.set_ylabel('SFR (in $M_{\odot}$)')
+        ax2.set_ylabel('SFR (in $M_{\odot}$ $yr^{-1}$)')
         
         
         ax3 = fig.add_subplot(gs[1,0])
@@ -52,6 +52,7 @@ def AllPlot(arg):
         plt.suptitle('Data for Merger', y= 0.92, fontsize = 18)
         # title for the whole subplot, name, y= location in height, font size
         plt.savefig('Merger Data'+'.pdf')
+        plt.savefig('Merger Data')
         # saves the figure, name +'.pdf' makes it a pdf
         
         mdot1=mdot
@@ -65,7 +66,7 @@ def AllPlot(arg):
         sfr = np.loadtxt('sfr-nomerger.txt', usecols = [2])
 
         time = (d[:,0])/ 0.73
-        mass = d[:,1]
+        mass = ((d[:,1])* 10**10)/ 0.73
         mdot = d[:,2]
         mdoter = d[:,3]
         
@@ -86,7 +87,7 @@ def AllPlot(arg):
         ax2.semilogy(time, sfr, 'y-')
         ax2.axvline(0.0712492054795, color = 'k')
         ax2.annotate('max SFR rate', xy=(0.0712492054795, max(sfr) ), xytext=(1.07, max(sfr)),arrowprops=dict(arrowstyle="->", facecolor='black'))
-        ax2.set_ylabel('SFR (in $M_{\odot}$)')
+        ax2.set_ylabel('SFR (in $M_{\odot}$ $yr^{-1}$)')
         
         
         ax3 = fig.add_subplot(gs[1,0])
@@ -108,6 +109,7 @@ def AllPlot(arg):
         plt.suptitle('Data for No Merger', y= 0.92, fontsize = 18)
         # title for the whole subplot, name, y= location in height, font size
         plt.savefig('No Merger Data'+'.pdf')
+        plt.savefig('No Merger Data')
         # saves the figure, name +'.pdf' makes it a pdf
 
 def mergetxt():

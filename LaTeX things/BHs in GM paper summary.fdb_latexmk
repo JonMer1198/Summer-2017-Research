@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1497973993 "BHs in GM paper summary.tex" "BHs in GM paper summary.pdf" "BHs in GM paper summary" 1497973994
+["pdflatex"] 1497973993 "BHs in GM paper summary.tex" "BHs in GM paper summary.pdf" "BHs in GM paper summary" 1499267920
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -57,7 +57,7 @@
   "BHs in GM paper summary.out" 1497973994 137 a312226574b59a639b457af3c8e1eeaf ""
   "BHs in GM paper summary.tex" 1497973992 16558 e781151d6c9c451e4b82ecba493c70ae ""
   (generated)
-  "BHs in GM paper summary.aux"
-  "BHs in GM paper summary.out"
-  "BHs in GM paper summary.pdf"
   "BHs in GM paper summary.log"
+  "BHs in GM paper summary.aux"
+  "BHs in GM paper summary.pdf"
+  "BHs in GM paper summary.out"
