@@ -1,4 +1,4 @@
-# distance [kpc]
+# distance [kpc/h]
    0.00384
    0.01098
    0.00871
